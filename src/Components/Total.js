@@ -1,6 +1,6 @@
 const Total = (props) => {
     var totalEx = 0
-    var parts = props.parts
+    var parts = props.course.parts
     for (var i = 0; i < parts.length; i++){
         totalEx +=  parts[i].exercises
     }
